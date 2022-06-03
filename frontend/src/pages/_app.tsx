@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider theme={thema}>
           <Header/>
         <Component {...pageProps} />
-          <List/>
       </ThemeProvider>
   )
 }
